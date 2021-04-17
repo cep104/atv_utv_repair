@@ -77,11 +77,15 @@ section{
     margin-left: 1%;
 }
 
-#first{
-    border-right: 2px solid #bbb;
-    padding-right: 1%;
-}
+
 
 article{
     text-align: center;
 }
+
+@media only screen and (min-width: 600px) {
+    #first{
+        border-right: 2px solid #bbb;
+        padding-right: 1%;
+    }
+  }
