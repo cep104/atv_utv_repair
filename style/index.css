@@ -1,8 +1,27 @@
 body{
-    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+    background-color: #639379;
+    background-image: url("../images/background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 img {
     width:20%;
     height: auto;
+    float:left;
+}
+
+h1{
+    color: #f1eddb;
+    margin-top: 8%;
+    display: inline-block;
+}
+
+header{
+    overflow: auto;
+    background-color: #0c2c56;
+    text-align: center;
+ 
 }
