@@ -1,91 +1,85 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #639379;
-    background-image: url("../images/background.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 100%;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #639379;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 header img {
-    width:25%;
-    height: auto;
-    position: relative;
-    /* float:left; */
+  width: 25%;
+  height: auto;
+  position: relative;
+  /* float:left; */
 }
 
-h1{
-   color: #f1eddb;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-color: #639379;
+h1 {
+  color: #f1eddb;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #639379;
 }
 
-header{
-    background-color: #0c2c56;
-    text-align: center;
-    position: rel;
-    
- 
+header {
+  background-color: #0c2c56;
+  text-align: center;
+  position: rel;
 }
 
-main{ background-color: rgb(255, 255, 255, .5);
-    /* overflow: auto; */
-    padding-bottom: 2%;
-    overflow: auto;
+main {
+  background-color: rgb(255, 255, 255, 0.5);
+  /* overflow: auto; */
+  padding-bottom: 2%;
+  overflow: auto;
 }
-aside img{
-    width: 50%;
-    height: auto;
-    float: left;
-    margin-right: 2%;
-    
-    
-}
-
-aside{
-    padding: 2%;
-    margin-bottom: 2%;
+aside img {
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-right: 2%;
 }
 
-h2{
-    margin-top: 0;
+aside {
+  padding: 2%;
+  margin-bottom: 2%;
+  overflow: auto;
 }
 
-footer{
-    background-color: #0c2c56;
-    padding: 1%;
-    color: #f1eddb;
-    /* font-size: .7em; */
-    padding-right: 2%;
-    text-align: center;
-    padding-top: 2%;
+h2 {
+  margin-top: 0;
 }
 
-
-section a{
-    text-decoration: none;
-    color:#639379;
-    
+footer {
+  background-color: #0c2c56;
+  padding: 1%;
+  color: #f1eddb;
+  /* font-size: .7em; */
+  padding-right: 2%;
+  text-align: center;
+  padding-top: 2%;
 }
 
-section{
-    display: inline-block;
-    margin-left: 1%;
+section a {
+  text-decoration: none;
+  color: #639379;
 }
 
+section {
+  display: inline-block;
+  margin-left: 1%;
+}
 
-
-article{
-    text-align: center;
+article {
+  text-align: center;
 }
 
 @media only screen and (min-width: 600px) {
-    #first{
-        border-right: 2px solid #bbb;
-        padding-right: 1%;
-    }
+  #first {
+    border-right: 2px solid #bbb;
+    padding-right: 1%;
   }
+}
